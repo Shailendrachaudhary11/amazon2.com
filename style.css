@@ -1,0 +1,402 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(amazon-dark-logo-01F3CFFF03-seeklogo.com-removebg-preview.png);
+    height: 50px;
+
+    width: 100%;
+
+    background-size: cover;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+ 
+}
+
+/** box-2**/
+
+.add-first {
+
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+/** box-3**/
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
+.nav-search {
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+margin-left: 5px;
+}
+
+.search {
+    background-color: #f3f3f3;
+    width: 50px;
+text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.serach-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.serach-icon{
+    width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+background-color: #febd68;
+border: none;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+/* box 4*/
+.nav-second{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-first{
+    font-size: 0.9rem;
+}
+/* box 68*/
+.nav-card{
+    font-size: 1.5rem;
+}
+.nav-card p span{
+    color: #febd68;
+    
+}
+/* second nav**/
+.panel{
+    width: 100%;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.panel-all{
+    width: 20%;
+    padding-left: 5px;
+}
+
+.panel-ops{
+    display: flex;
+    width: 60%;
+    
+}
+.panel-ops p{
+    margin-left: 15px;
+}
+.panel-deals{
+    width: 20%;
+}
+
+/* hero-section */
+.hero-section{
+    background-image: url(supermarket-cart-loaded-cardboard-boxes-sales-goods-concept-trade-commerce-online-shopping-high-delivery-order-134531493.webp);
+    height: auto;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+align-items: flex-end;
+
+}
+
+.hero-msg{
+
+    background-color:#37475a;
+    height: auto;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   border-radius: 10px;
+   padding-top: 15px;
+   justify-content: center;
+   align-items: center;
+   width: 70%;
+   margin-top: 15px;
+   padding-bottom: 10px;
+ 
+}
+.hero-section-msg{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.hero-section-msg h4 a{
+    text-decoration: none;
+    color: red;
+}
+.hero-section-msg button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: yellow;
+    font-size: 20px;
+    text-decoration: none;
+}
+.hero-msg p{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem
+}
+.hero-msg p a{
+    color:red;
+    cursor: pointer;
+    text-decoration: none;
+}
+/** shop-box**/
+.more-info{
+    background-color: red;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+.div:hover .more-info{
+    display: block;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color:#222f3d;
+    background-image: linear-gradient(#222f3d,white);
+}
+.box{
+    border: 2px solid transparent;
+    height: 300px;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px 0px 15px;
+    background-color: white;
+}
+.box:hover{
+   border: 2px solid white;
+}
+.box-content{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box-img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box-content p{
+    color: green;
+    cursor: pointer;
+}
+.box-content p:hover{
+    color: red;
+}
+
+/* footer */
+.footer{
+    
+}
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: auto;
+    display: flex;
+    padding-bottom: 20px;
+    background-color: #222f3d;
+    justify-content: space-evenly;
+}
+.footer-panel2 ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    
+    opacity: 0.8;
+    cursor: pointer;
+}
+.footer-panel2 ul p{
+    margin-top: 15px;
+    
+}
+.footer-panel3{
+    background-color: #222f3d;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.logo2{
+    background-image: url(amazon-dark-logo-01F3CFFF03-seeklogo.com-removebg-preview.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+  cursor: pointer;
+    background-repeat: no-repeat;
+     justify-content: center;
+     align-items: center;
+}
+/* banner-text **/
+
+.banner-text{
+    width: 100%;
+    height: 300px;
+ 
+    background-color: white;
+    
+}
+.original-txt{
+    width: 65%;
+    margin:auto;
+    margin-top: 40px;
+    background-color: #37475a;
+    background-image: linear-gradient(#37475a,white);
+    height: 200px;
+    color: white;
+    
+    font-size: 2rem;
+}
+.original-txt h2 a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.original-txt h2 a:hover{
+    color: red;
+}
+.original-txt h2{
+    text-align: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+.original-txt h3{
+    text-align: center;
+    justify-content: center;
+    
+}
+.txt{
+    margin-top: 20px;
+}
+
+/* inner-trading-sale */
+.trending h1:hover{
+    color: red;
+}
+.trending h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #222f3d
+}
+.treding-sale{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #222f3d;
+    background-image: linear-gradient(#222f3d,white);
+}
+.inner-trading-sale{
+    width: 20%;
+    height: 280px;
+    margin-top: 10px;
+    background-color: #222f3d;
+    border: 2px solid transparent;
+}
+.inner-trading-sale h2{
+    margin-left: 10px;
+}
+.inner-trading-sale:hover{
+    border: 2px solid white;
+}
+.inner-trading-sale p{
+    
+}
+.box1{
+    border: 2px solid transparent;
+    margin: 10px;
+    height: 230px;
+    
+}
+.box1 p{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.box1 p:hover{
+    color: red;
+    cursor: pointer;
+}
+.box1-img{
+    background-image: url(glass.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+
+
+}

@@ -1,0 +1,82 @@
+@media(max-width:720px){
+    .box{
+        display: block;
+        width: 80%;
+    }
+    .treding-sale{
+        display: block;
+        
+    }
+    .inner-trading-sale{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .trending h1{
+        font-size: 2rem;
+    }
+    
+.nav-search{
+    width: 20px;
+   }
+    
+
+}
+
+@media(max-width:1000px){
+   
+   .nav-search{
+    width: 300px;
+   }
+}
+@media(max-width:500px){
+.box{
+        display: block;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer-panel2{
+        display: block;
+        width: 100%;
+        text-align: center;
+        
+    }
+     
+}
+@media(max-width:800px){
+    .panel{
+        display: flex;
+    }
+    .nav-search{
+    width: 300px;
+   }
+   .panel-deals{
+    display: none;
+   }
+}
+@media(max-width:700px){
+   .nav-address{
+    display: none;
+   }
+   .nav-sign{
+    display: none;
+
+   }
+}
+@media(max-width:500px){
+    .nav-address{
+     display: none;
+    }
+    .nav-search{
+        width: 200px;
+       }
+    .nav-sign{
+     display: none;
+ 
+    }
+    .nav-return{
+        display: none;
+    }
+ }
